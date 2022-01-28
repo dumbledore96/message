@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>留言</title>
+</head>
+
+<body>
+    <h1>留言區</h1>
+    <script src="script.js"></script>
+    <form onsubmit="messagetest(this.message.value , this.main.value)">
+        <input type="text" id="message" placeholder="輸入標題">
+        <input type="submit" value="送出">
+        <br>
+        <br>
+        <textarea id="main" rows="10" cols="30" placeholder="輸入內容"></textarea> 
+    </form>
+    <div id="visible">
+        <p>hello</p>
+    </div>
+</body>
+</html>
